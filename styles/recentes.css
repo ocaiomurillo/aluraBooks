@@ -1,0 +1,33 @@
+.recentes{
+    background: var(--cor_terciaria);
+    padding: 1em;
+    color: var(--cor_primaria);
+}
+
+.recentes__titulo{
+    font-weight: var(--fonte_light);
+    text-align: center;
+    padding: .5em;
+    margin-bottom: .8em;
+}
+
+.recentes__lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+    text-decoration: none;
+}
+
+.lista__item{
+    background: var(--cor_secundaria);
+    padding: 1em;
+    color: var(--cor_primaria);
+}
+
+.lista__item__link{
+    text-decoration: none;
+    font-weight: var(--fonte_bold);
+    font-size: var(--tam_fonte_detalhe);
+    color: var(--cor_primaria);
+}

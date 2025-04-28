@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+@import url(banner.css);
+@import url(cabeçalho.css);
+@import url(cards.css);
+@import url(carrossel.css);
+@import url(contato.css);
+@import url(recentes.css);
+@import url(resset.css);
+@import url(rodape.css);
+
+:root{
+    /*Cores*/
+    --cor_primaria: #FFFFFF;
+    --cor_secundaria: #EB9B00;
+    --cor_terciaria: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --cor_terciaria_escura: #002F52;
+    --cor_basica: #000000;
+    --cor_base: #EBECEE;
+    --cor_fundo: #FFFFFF;
+
+    /*Tipografia*/
+    --fonte: 'Poppins', sans-serif;
+    --fonte_titulo: 'Josefin Sans', sans-serif;
+
+    --tam_fonte_padrao: 16px;
+    --tam_fonte_titulo: 18px;
+    --tam_fonte_detalhe: 14px;
+
+    --fonte_regular: 400;
+    --fonte_bold: 700;
+    --fonte_medium: 500;
+    --fonte_light: 300;
+
+    /*Efeitos*/
+    --efeito_sombra: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    /*Espaçamento*/
+    --padding_padrao: .8em 0 .5em 0;
+    --padding_maior: 1em 0 1em 0;
+    --padding_total: .5em .5em .5em .5em;
+    
+}
+
+body{
+    font-family: var(--fonte);
+    font-size: var(--tam_fonte_padrao);
+    font-weight: var(--fonte_regular);
+    text-decoration: none;
+    background-color: var(--cor_base);
+    color: var(--cor_basica);
+}
